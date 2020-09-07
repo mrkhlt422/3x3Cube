@@ -14,7 +14,6 @@ public class Cube{
 	}
 	
 	private void setFace(int face, Scanner input) {
-		//System.out.println("Face: " + (face+1));
 		String faceChars = null;
 		try {
 			faceChars = input.nextLine();
